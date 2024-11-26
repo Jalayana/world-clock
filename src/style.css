@@ -1,6 +1,66 @@
 h1 {
   text-align: center;
+  font-size: 43px;
 }
+
+h2 {
+  margin: 0;
+  color: #dc7aa6;
+  font-size: 30px;
+}
+
+select {
+  display: block;
+  margin: 0 auto;
+  background-color: #d92d7b;
+  color: white;
+  width: 30%;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: rgb(23, 46, 106);
+  background: radial-gradient(
+    circle,
+    rgba(23, 46, 106, 1) 8%,
+    rgba(20, 37, 80, 1) 47%
+  );
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 30px 0;
+  border-radius: 5px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.928);
+}
+
+.city:last-child {
+  border: none;
+}
+.time {
+  font-size: 48px;
+}
+
+.time small {
+  font-size: 18px;
+  vertical-align: middle;
+  line-height: 36px;
+}
+
+.date {
+  opacity: 0.8;
+}
+
 footer {
   text-align: center;
+  color: #d41f71;
 }
