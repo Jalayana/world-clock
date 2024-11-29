@@ -61,6 +61,20 @@ select {
   opacity: 0.8;
 }
 
+button {
+  background-color: #d41f71;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: all 200ms ease-in-out;
+  background-color: white;
+  color: #d41f71;
+}
+
 footer {
   text-align: center;
   color: #d41f71;
