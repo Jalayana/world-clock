@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World Clock</title>
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.46/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -17,32 +19,31 @@
         <option value="">Moscow</option>
         <option value="">Tokyo</option>
       </select>
-      <div class="city">
+      <div class="city" id="beijing">
         <div>
           <h2>Beijing</h2>
-          <div class="date">
-            November 26th,
-            <span class="time-difference">13 hours behind</span>
-          </div>
+          <div class="date"></div>
+          <div class="time-difference">10 hours ahead</div>
         </div>
-        <div class="time">5:00 <small>PM</small></div>
+        <div class="time"><small>PM</small></div>
       </div>
-      <div class="city">
+      <div class="city" id="new-york">
         <div>
           <h2>New York</h2>
-          <div class="date">
-            November 26th,
-            <span class="time-difference">13 hours behind</span>
-          </div>
+          <div class="date"></div>
+          <div class="time-difference">5 hours behind</div>
         </div>
-        <div class="time">5:00 <small>PM</small></div>
+        <div class="time"><small>PM</small></div>
       </div>
     </div>
 
     <footer>
       This project was coded by
-      <a href="https://github.com/Jalayana"> Jalayana Miller</a> ,open sourced
-      on <a href="https://github.com/Jalayana/world-clock">GitHub.</a>
+      <a href="https://github.com/Jalayana" target="_blank"> Jalayana Miller</a>
+      and is open sourced on
+      <a href="https://github.com/Jalayana/world-clock" target="_blank"
+        >GitHub.</a
+      >
     </footer>
     <script src="src/index.js"></script>
   </body>
